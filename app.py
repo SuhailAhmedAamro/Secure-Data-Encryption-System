@@ -1,6 +1,5 @@
 import streamlit as st
-import hashlib
-from cryptography.fernet import Fernet
+import hashlib from cryptography.fernet import Fernet
 
 # Generate and initialize encryption key
 KEY = Fernet.generate_key()
